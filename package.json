@@ -1,7 +1,7 @@
 {
   "name":            "google-url",
   "description":     "An API client for the Google URL shortening service goo.gl",
-  "version":         "0.0.2",
+  "version":         "0.0.3",
   "contributors":    [
     "Anthony Hildoer <anthony@bluerival.com>"
   ],
@@ -23,5 +23,5 @@
   "engines":         {
     "node": ">=0.10.25"
   },
-  "license":         "BLUERIVAL"
+  "license":         "MIT"
 }
