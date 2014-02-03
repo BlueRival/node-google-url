@@ -1,0 +1,27 @@
+{
+  "name":            "google-url",
+  "description":     "An API client for the Google URL shortening service goo.gl",
+  "version":         "0.0.2",
+  "contributors":    [
+    "Anthony Hildoer <anthony@bluerival.com>"
+  ],
+  "repository":      {
+    "type": "git",
+    "url":  "git@github.com:BlueRival/node-google-url.git"
+  },
+  "dependencies":    {
+    "moment": "~2",
+    "request": "~2"
+  },
+  "devDependencies": {
+    "mocha": "~1"
+  },
+  "keywords":        [
+    "google url shortener",
+    "goo.gl api client"
+  ],
+  "engines":         {
+    "node": ">=0.10.25"
+  },
+  "license":         "BLUERIVAL"
+}
