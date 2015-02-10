@@ -24,7 +24,7 @@ Usage
 
 ```javascript
 
-var GoogleUrl = require( 'google-url' );
+var GoogleURL = require( 'google-url' );
 
 googleUrl = new GoogleURL();
 
