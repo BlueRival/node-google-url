@@ -24,7 +24,7 @@ Usage
 
 ```javascript
 
-var GoogleUrl = require( 'google-url' );
+var GoogleURL = require( 'google-url' );
 
 googleUrl = new GoogleURL();
 
@@ -36,7 +36,7 @@ googleUrl.shorten( 'http://bluerival.com/', function( err, shortUrl ) {
   // shortUrl should be http://goo.gl/BzpZ54
 } );
 
-googleUrl.shorten( 'http://goo.gl/BzpZ54', function( err, longUrl ) {
+googleUrl.expand( 'http://goo.gl/BzpZ54', function( err, longUrl ) {
   // longUrl should be http://bluerival.com/
 } );
 
